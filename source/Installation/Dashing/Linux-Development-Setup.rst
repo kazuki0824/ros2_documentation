@@ -52,13 +52,11 @@ Install development tools and ROS tools
      build-essential \
      cmake \
      git \
-     python3-colcon-common-extensions \
-     python3-lark-parser \
      python3-lxml \
      python3-numpy \
      python3-pip \
-     python-rosdep \
-     python3-vcstool \
+     python3-rosdep2 \
+     python3-vcstools \
      wget
    # install some pip packages needed for testing
    python3 -m pip install -U \
